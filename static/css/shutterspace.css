@@ -506,20 +506,20 @@ a:focus {
 @media(max-width:767px) {
     #box1 {
         position:fixed;
-        left:36%;
+        left:20%;
         top:13%;
-        width:200px;
-        padding:50px;
+        width:250px;
+        padding:65px;
         border:1px solid #000;
         border-radius:5px;
     }
 
     #box2 {
         position:fixed;
-        left:36%;
-        top:30%;
-        width:200px;
-        padding:50px;
+        left:20%;
+        top:34%;
+        width:250px;
+        padding:65px;
         border:1px solid #000;
         border-radius:5px;
     }
