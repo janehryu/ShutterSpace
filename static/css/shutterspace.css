@@ -488,17 +488,41 @@ a:focus {
     left:36%;
     top:15%;
     width:435px;
-    padding:80px;
+    padding:90px;
     border:1px solid #000;
+    border-radius:5px;
 }
 
 #box2 {
     position:fixed;
     left:36%;
-    top:40%;
+    top:42%;
     width:435px;
-    padding:80px;
+    padding:90px;
     border:1px solid #000;
+    border-radius:5px;
+}
+
+@media(max-width:767px) {
+    #box1 {
+        position:fixed;
+        left:36%;
+        top:13%;
+        width:200px;
+        padding:50px;
+        border:1px solid #000;
+        border-radius:5px;
+    }
+
+    #box2 {
+        position:fixed;
+        left:36%;
+        top:30%;
+        width:200px;
+        padding:50px;
+        border:1px solid #000;
+        border-radius:5px;
+    }
 }
 
 .bottom {
