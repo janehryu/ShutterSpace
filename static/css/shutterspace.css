@@ -789,3 +789,48 @@ button, input, select, textarea {
     font-family:'PT Sans Narrow', sans-serif;
 
 }
+
+@media(max-width: 767px) {
+.photobtn {
+  border-radius: 16px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 20px 40px 20px 40px;
+  border: solid #000000 9px;
+  text-decoration: none;
+  position: fixed;
+  top: 30% ;
+  left: 12%;
+}
+
+.photobtn:hover {
+  background: #d6efff;
+  text-decoration: none;
+}
+.contactbtn {
+  border-radius: 16px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 20px 40px 20px 40px;
+  border: solid #000000 9px;
+  text-decoration: none;
+  position: fixed;
+  top:30%;
+  right: 12%;
+}
+
+.contactbtn:hover {
+  background: #d6efff;
+  text-decoration: none;
+}
+
+.profileimg {
+    position: fixed;
+    top: -10%;
+    left:15%;
+}
+}
