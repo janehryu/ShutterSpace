@@ -48,15 +48,17 @@
                         <input type="text" placeholder="#" required>
                         <button type="submit"><a href="searched.html">Search</a></button>
                     </form>   
-                </div>
+
+
                 {{#each feed.news_feed}}
                     <div class='feed-box'>
-                        <p class="homep">{{content}}</p>
-                        <img class="box" src="{{imageURL}}"/>
+                        <img class="homeimg" src="{{imageURL}}"/>
+                        <div class="hcontent">{{content}}</div>
                     </div>
                 {{/each}}
-
             </div>
+        </div>
+
 
 
     <!-- Bottom Icons Footer-->
