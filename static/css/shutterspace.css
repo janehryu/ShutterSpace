@@ -22,6 +22,7 @@ h1 {
     text-transform:none;
 }
 
+
 h2,
 h3,
 h4,
@@ -67,6 +68,11 @@ a:focus {
 
 .fa .fa-arrow-left {
     font-size:50px;
+}
+
+.arrow-down {
+    position:fixed;
+    top:30%;
 }
 
 .light {
@@ -542,6 +548,57 @@ a:focus {
         border:1px solid #000;
         border-radius:5px;
     }
+}
+
+#w1 {
+    width:48%;
+    height:240px;
+    padding-bottom:10px;
+}
+
+#w2 {
+    width:48%;
+    height:240px;
+    padding-bottom:10px;
+}
+#w3 {
+    width:48%;
+    height:240px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#w4 {
+    width:48%;
+    height:240px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#l1 {
+    width:40%;
+    height:210px;
+    padding-bottom:10px;
+}
+
+#l2 {
+    width:40%;
+    height:210px;
+    padding-bottom:10px;
+}
+#l3 {
+    width:40%;
+    height:210px;
+    padding-bottom:10px;
+}
+#l4 {
+    width:40%;
+    height:210px;
+    padding-bottom:10px;
+}
+
+.likedheader {
+    font:'PT Sans Narrow', sans-serif;
+    font-size:40px;
 }
 
 .footer {
