@@ -847,7 +847,7 @@ button, input, select, textarea {
 
 }
 
-<<<<<<< HEAD
+
 @media(max-width: 767px) {
 .photobtn {
   border-radius: 16px;
@@ -857,7 +857,6 @@ button, input, select, textarea {
   background: #ffffff;
   padding: 20px 40px 20px 40px;
   border: solid #000000 9px;
-  text-decoration: none;
   position: fixed;
   top: 30% ;
   left: 12%;
@@ -875,7 +874,6 @@ button, input, select, textarea {
   background: #ffffff;
   padding: 20px 40px 20px 40px;
   border: solid #000000 9px;
-  text-decoration: none;
   position: fixed;
   top:30%;
   right: 12%;
@@ -888,10 +886,11 @@ button, input, select, textarea {
 
 .profileimg {
     position: fixed;
-    top: -10%;
-    left:15%;
+    left:25%;
+    width: 50%
 }
-=======
+}
+
 @media(max-width:767px) {
 .venmoimg{
     position: fixed;
@@ -991,5 +990,4 @@ button, input, select, textarea {
     left:23%;
 }
 
->>>>>>> FETCH_HEAD
 }
