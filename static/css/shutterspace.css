@@ -846,3 +846,104 @@ button, input, select, textarea {
     font-family:'PT Sans Narrow', sans-serif;
 
 }
+
+@media(max-width:767px) {
+.venmoimg{
+    position: fixed;
+    left: 29%;
+    top: 3%;
+    width: 40%;
+}
+
+.venmoname{
+    text-align: center;
+    color: #000000;
+    text-transform: none;
+}
+
+.venmoinput{
+    position: fixed;
+    top:10%;
+    width: 200px;
+    left: 20%;
+}
+
+.venmoney{
+    position: fixed;
+    top: 17%;
+    width: 200px;
+    left:20%;
+}
+
+.venmodescription{
+    position: fixed;
+    top: 24%;
+    width: 300px;
+    left:4%;
+    height: 100px;
+}
+
+.reqbtn{
+    position:fixed;
+    top: 50%;
+    width: 50px;
+    left:51%;
+}
+
+.paybtn{
+    position:fixed;
+    top: 50%;
+    width: 50px;
+    left:31%;
+}
+
+.hashtags{
+    position:fixed;
+    width:200px;
+    left:20%;
+    top:32%;
+}
+
+.uploadbtn{
+    position:fixed;
+    width: 150px;
+    left:27%;
+    top:10%;
+}
+
+.finbtn{
+    position:fixed;
+    width: 80px;
+    left:37%;
+    top:55%;
+}
+
+.picchoicebtn{
+    position:fixed;
+    width: 150px;
+    left:27%;
+    top:50%;
+}
+
+.uploaded{
+    position:fixed;
+    top:35%;
+    color: #000000;
+    left: 25%;
+}
+
+.payment{
+    position:fixed;
+    top:35%;
+    color:#000000;
+    left:17%;
+}
+
+.request{
+    position:fixed;
+    top:35%;
+    color:#000000;
+    left:23%;
+}
+
+}
