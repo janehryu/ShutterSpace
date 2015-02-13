@@ -22,7 +22,6 @@ h1 {
     text-transform:none;
 }
 
-
 h2,
 h3,
 h4,
@@ -68,11 +67,6 @@ a:focus {
 
 .fa .fa-arrow-left {
     font-size:50px;
-}
-
-.arrow-down {
-    position:fixed;
-    top:30%;
 }
 
 .light {
@@ -550,57 +544,6 @@ a:focus {
     }
 }
 
-#w1 {
-    width:48%;
-    height:240px;
-    padding-bottom:10px;
-}
-
-#w2 {
-    width:48%;
-    height:240px;
-    padding-bottom:10px;
-}
-#w3 {
-    width:48%;
-    height:240px;
-    padding-top:10px;
-    padding-bottom:10px;
-}
-#w4 {
-    width:48%;
-    height:240px;
-    padding-top:10px;
-    padding-bottom:10px;
-}
-
-#l1 {
-    width:40%;
-    height:210px;
-    padding-bottom:10px;
-}
-
-#l2 {
-    width:40%;
-    height:210px;
-    padding-bottom:10px;
-}
-#l3 {
-    width:40%;
-    height:210px;
-    padding-bottom:10px;
-}
-#l4 {
-    width:40%;
-    height:210px;
-    padding-bottom:10px;
-}
-
-.likedheader {
-    font:'PT Sans Narrow', sans-serif;
-    font-size:40px;
-}
-
 .footer {
     width:100%;
     position:absolute;
@@ -847,7 +790,6 @@ button, input, select, textarea {
 
 }
 
-<<<<<<< HEAD
 @media(max-width: 767px) {
 .photobtn {
   border-radius: 16px;
@@ -891,105 +833,4 @@ button, input, select, textarea {
     top: -10%;
     left:15%;
 }
-=======
-@media(max-width:767px) {
-.venmoimg{
-    position: fixed;
-    left: 29%;
-    top: 3%;
-    width: 40%;
-}
-
-.venmoname{
-    text-align: center;
-    color: #000000;
-    text-transform: none;
-}
-
-.venmoinput{
-    position: fixed;
-    top:10%;
-    width: 200px;
-    left: 20%;
-}
-
-.venmoney{
-    position: fixed;
-    top: 17%;
-    width: 200px;
-    left:20%;
-}
-
-.venmodescription{
-    position: fixed;
-    top: 24%;
-    width: 300px;
-    left:4%;
-    height: 100px;
-}
-
-.reqbtn{
-    position:fixed;
-    top: 50%;
-    width: 50px;
-    left:51%;
-}
-
-.paybtn{
-    position:fixed;
-    top: 50%;
-    width: 50px;
-    left:31%;
-}
-
-.hashtags{
-    position:fixed;
-    width:200px;
-    left:20%;
-    top:32%;
-}
-
-.uploadbtn{
-    position:fixed;
-    width: 150px;
-    left:27%;
-    top:10%;
-}
-
-.finbtn{
-    position:fixed;
-    width: 80px;
-    left:37%;
-    top:55%;
-}
-
-.picchoicebtn{
-    position:fixed;
-    width: 150px;
-    left:27%;
-    top:50%;
-}
-
-.uploaded{
-    position:fixed;
-    top:35%;
-    color: #000000;
-    left: 25%;
-}
-
-.payment{
-    position:fixed;
-    top:35%;
-    color:#000000;
-    left:17%;
-}
-
-.request{
-    position:fixed;
-    top:35%;
-    color:#000000;
-    left:23%;
-}
-
->>>>>>> FETCH_HEAD
 }
