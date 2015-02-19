@@ -289,7 +289,7 @@ a:focus {
 .homepage {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: #000;
@@ -552,31 +552,31 @@ a:focus {
 
 #w1 {
     width:48%;
-    height:240px;
+    height:145px;
     padding-bottom:10px;
 }
 
 #w2 {
     width:48%;
-    height:240px;
+    height:145px;
     padding-bottom:10px;
 }
 #w3 {
     width:48%;
-    height:240px;
+    height:145px;
     padding-top:10px;
     padding-bottom:10px;
 }
 #w4 {
     width:48%;
-    height:240px;
+    height:145px;
     padding-top:10px;
     padding-bottom:10px;
 }
 
 #l1 {
     width:40%;
-    height:210px;
+    height:200px;
     padding-bottom:10px;
 }
 
