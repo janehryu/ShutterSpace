@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/shutterspace.css" rel="stylesheet">
 
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" media="screen" href="ionicons-2.0.1/css/ionicons.min.css?v=2.0.1">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
@@ -29,43 +32,46 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-
 </head>
+
 <body>
-    <div>
-        <h2 class = "venmoname"> Upload </h2>
-    </div>
-
-    <div class = "hashtags">
-        <input type="text" class="hashtags form-control" placeholder="#Hashtags">
-    </div>
-
-    <div class = "upbtn">
-        <input type = "file" accept="image/*" capture = "camera">
-        <!--<a href = "uploadpic.html">-->
-        <!--<button style="background-color:black" class = "uploadbtn">
-            <img src="img/upload.jpg">-->
-        </button>
-    </div>
-
-    <div>
-        <a href = "uploaded.html">
-        <button style="background-color:deepskyblue" class = "finbtn"> Finish </button>
-    </div>
-
 <header class="homepage">
     <div class="homepage-body">
-    <div class="bottom">
-        <div class="footer">
-                <div class="footericons"><a href="homepage.html"><img class="icons" src="img/home.png"/></a></div>
-                <div class="footericons"><a href="venmo.html"><img class="iconsv" src="img/venmo1.png"/></a></div>
-                <div class="footericons"><a href="upload.html"><img class="icons" src="img/plus.png"/></a></div>
-                <div class="footericons"><a href="liked.html"><img class="icons" src="img/star.png"/></a></div>
-                <div class="footericons"> <a href="profile.html"><img class="icons" src="img/person.png"/></a></div>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h1 class="uploadname">Upload</h1>
+                </div>
+                <div class="upbtn">
+                    <input type="file" accept="image/*" capture = "camera">
+                    <!--<a href = "uploadpic.html">-->
+                    <!--<button style="background-color:black" class = "uploadbtn">
+                        <img src="img/upload.jpg">-->
+                </div>
+                
+                <div class="hashtags">
+                    <input type="text" class="hashtags form-control" placeholder="#Hashtags">
+                </div>
+
+                <div>
+                    <a href="uploaded.html"><button class="finbtn">Finish</button></a>
+                </div>
         </div>
     </div>
-    </div>
+
+  <!-- Bottom Icons Footer-->
+        <div class="footer">
+            <ul id="icons">
+            <a href="homepage"><li class="ion-home" data-pack="social" data-tags="house"></li></a>
+            <a href="venmo.html"><li class="ion-social-usd" data-pack="social" data-tags="currency, trade, money, cash"></li></a>
+            <a href="upload.html"><li class="ion-android-camera" data-pack="social" data-tags="android"></li></a>
+            <a href="liked.html"><li class="ion-android-star" data-pack="default" data-tags="favorite, like, rate"></li></a>
+            <a href="profile.html"><li class="ion-person" data-pack="social" data-tags="people, human, users, staff"></li></a>
+            </ul>
+        </div>
+
+    </div> 
 </header>
 
 </body>
+</html>

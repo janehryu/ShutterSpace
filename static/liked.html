@@ -17,11 +17,11 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" media="screen" href="ionicons-2.0.1/css/ionicons.min.css?v=2.0.1">
+
     <link href="css/shutterspace.css" rel="stylesheet">
 
-  
-  
     <!-- Responsive CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
   
@@ -44,12 +44,10 @@
         <div class="homepage-body">
             <div class="container">
                 <div class="row">
-                <form class="form-wrapper cf">
+                    <form class="form-wrapper cf">
                         <input type="text" placeholder="#" required>
                         <button type="submit"><a href="searched.html">Search</a></button>
-                    </form>   
-
-                    <p class="likedheader">Favorites</p> 
+                    </form>
                         <a href="profile.html"><img id="l1" src="img/l1.jpeg"/></a>
                         <a href="profile.html"><img id="l2" src="img/l2.jpeg"/></a>
                         <a href="profile.html"><img id="l3" src="img/l3.jpg"/></a>
@@ -59,19 +57,18 @@
 
 
     <!-- Bottom Icons Footer-->
-    <div class="bottom">
         <div class="footer">
-                <div class="footericons"><a href="homepage"><img class="icons" src="img/home.png"/></a></div>
-                <div class="footericons"><a href="venmo.html"><img class="iconsv" src="img/venmo1.png"/></a></div>
-                <div class="footericons"><a href="upload.html"><img class="icons" src="img/plus.png"/></a></div>
-                <div class="footericons"><a href="liked.html"><img class="icons" src="img/star.png"/></a></div>
-                <div class="footericons"> <a href="profile.html"><img class="icons" src="img/person.png"/></a></div>
+            <ul id="icons">
+            <a href="homepage"><li class="ion-home" data-pack="social" data-tags="house"></li></a>
+            <a href="venmo.html"><li class="ion-social-usd" data-pack="social" data-tags="currency, trade, money, cash"></li></a>
+            <a href="upload.html"><li class="ion-android-camera" data-pack="social" data-tags="android"></li></a>
+            <a href="liked.html"><li class="ion-android-star" data-pack="default" data-tags="favorite, like, rate"></li></a>
+            <a href="profile.html"><li class="ion-person" data-pack="social" data-tags="people, human, users, staff"></li></a>
+            </ul>
         </div>
-    </div>
 
-
-        </div> 
-    </header>
+    </div> 
+</header>
 
 </body>
 </html>

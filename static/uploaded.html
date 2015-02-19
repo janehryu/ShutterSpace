@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/shutterspace.css" rel="stylesheet">
 
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" media="screen" href="ionicons-2.0.1/css/ionicons.min.css?v=2.0.1">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
@@ -29,22 +32,31 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-
 </head>
+
 <body>
-    <h2 class = "uploaded"> Uploaded! </h2>
-<header class="homepage">
-    <div class="homepage-body">
-    <div class="bottom">
+    <header class="homepage">
+        <div class="homepage-body">
+            <div class="container">
+                <div class="row">
+                    <h2 class="uploaded">Photos Uploaded!</h2>
+                </div>
+            </div>
+
+
+    <!-- Bottom Icons Footer-->
         <div class="footer">
-                <div class="footericons"><a href="homepage.html"><img class="icons" src="img/home.png"/></a></div>
-                <div class="footericons"><a href="venmo.html"><img class="iconsv" src="img/venmo1.png"/></a></div>
-                <div class="footericons"><a href="upload.html"><img class="icons" src="img/plus.png"/></a></div>
-                <div class="footericons"><a href="liked.html"><img class="icons" src="img/star.png"/></a></div>
-                <div class="footericons"> <a href="profile.html"><img class="icons" src="img/person.png"/></a></div>
+            <ul id="icons">
+            <a href="homepage"><li class="ion-home" data-pack="social" data-tags="house"></li></a>
+            <a href="venmo.html"><li class="ion-social-usd" data-pack="social" data-tags="currency, trade, money, cash"></li></a>
+            <a href="upload.html"><li class="ion-android-camera" data-pack="social" data-tags="android"></li></a>
+            <a href="liked.html"><li class="ion-android-star" data-pack="default" data-tags="favorite, like, rate"></li></a>
+            <a href="profile.html"><li class="ion-person" data-pack="social" data-tags="people, human, users, staff"></li></a>
+            </ul>
         </div>
-    </div>
-    </div>
+
+    </div> 
 </header>
+
 </body>
+</html>
