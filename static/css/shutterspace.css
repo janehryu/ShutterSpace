@@ -195,7 +195,7 @@ a:focus {
 .login {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -238,7 +238,7 @@ a:focus {
 .signup {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -629,46 +629,6 @@ a:focus {
     height:50px;
 }
 
-.btn-circle {
-    width: 200px;
-    height: 200px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
-}
-
-.btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
 @-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
@@ -752,14 +712,10 @@ a:focus {
 .btn-default {
     border: 1px solid #FFFFCC;
     color: #FFFFCC;
-    font-size:30px;
+    font-size:20px;
+    margin:5px;
     background-color: transparent;
-    margin-left:10px;
-    margin-right:10px;
-    padding-left:40px;
-    padding-right:40px;
-    padding-top:25px;
-    padding-bottom:25px;
+
 }
 
 .btn-default:hover,
