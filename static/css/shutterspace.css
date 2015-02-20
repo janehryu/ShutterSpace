@@ -523,6 +523,12 @@ a:focus {
     padding-bottom:10px;
 }
 
+.l2 {
+    width:80%;
+    height:160px;
+    margin-top:120px;
+}
+
 @-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
@@ -873,7 +879,7 @@ li.active {
 .profileimg {
     position:fixed;
     left:25%;
-    top:-2%;
+    top:1%;
     width:50%;
 }
 
@@ -881,35 +887,30 @@ li.active {
     position:fixed;
     background-color:#fff;
     top:30%;
-    left:25%;
+    left:20%;
+    padding-left:15px;
+    padding-right:15px;
     border:1px solid #000;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 .photobtn:hover {
-    background-color:#000;
+    background-color:#fff;
 }
 
 .contactbtn {
     position:fixed;
     background-color:#fff;
     top:30%;
-    right:25%;
+    right:20%;
+    padding-left:15px;
+    padding-right:15px;
     border:1px solid #000;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 .contactbtn:hover {
-    background-color:#000;
-}
-
-#box1 {
-    position:absolute;
-    width:150px;
-    height:80px;
-    top:50%;
-    left:25%;
-    border-radius:3px solid #000;  
+    background-color:#fff;
 }
 
 .hcontent {
