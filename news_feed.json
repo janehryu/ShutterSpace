@@ -5,8 +5,16 @@
 			"imageURL" : "img/hp1.jpg"
 		},
 		{
-			"content" : "#headshot",
+			"content" : "#family",
 			"imageURL" : "img/hp2.jpg"
+		},
+		{
+			"content" : "#sorority",
+			"imageURL" : "img/hp3.jpg"
+		},
+		{
+			"content" : "#headshot",
+			"imageURL" : "img/hp4.jpg"
 		}
 	]
 }

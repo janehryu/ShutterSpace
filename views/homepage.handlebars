@@ -50,13 +50,12 @@
                         <button type="submit"><a href="searched.html">Search</a></button>
                     </form>   
 
-
+                <div class='feed-box'>
                 {{#each feed.news_feed}}
-                    <div class='feed-box'>
-                        <img class="homeimg" src="{{imageURL}}"/>
-                        <div class="hcontent">{{content}}</div>
-                    </div>
+                        <a href="profile.html"><img class="homeimg" src="{{imageURL}}"/></a>
+                        <p class="hcontent">{{content}}</p>
                 {{/each}}
+                </div>
             </div>
         </div>
 
