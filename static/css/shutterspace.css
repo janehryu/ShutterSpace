@@ -824,6 +824,9 @@ button, input, select, textarea {
     border-radius:2px;      
     border:0;
 }
+.finbtn:hover {
+   background-color:#e54040; 
+}
 
 .picchoicebtn {
     position:fixed;
@@ -836,7 +839,7 @@ button, input, select, textarea {
     position:fixed;
     top:40%;
     color:#000;
-    left:22%;
+    left:21%;
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -860,12 +863,14 @@ li {
   z-index: 0;
   display: inline-block;
   width: 60px;
-  border-radius: 5px;
+  border-radius: 10px;
   list-style: none;
   font-weight: normal;
   font-size: 50px;
   cursor: pointer;
-  background-color:#fff;
+  background-color:#FFFFCC;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 li:hover {
@@ -879,38 +884,27 @@ li.active {
 .profileimg {
     position:fixed;
     left:25%;
-    top:1%;
+    top:-2%;
     width:50%;
-}
-
-.photobtn {
-    position:fixed;
-    background-color:#fff;
-    top:30%;
-    left:20%;
-    padding-left:15px;
-    padding-right:15px;
-    border:1px solid #000;
-    border-radius:5px;
-}
-
-.photobtn:hover {
-    background-color:#fff;
 }
 
 .contactbtn {
     position:fixed;
-    background-color:#fff;
-    top:30%;
-    right:20%;
-    padding-left:15px;
-    padding-right:15px;
-    border:1px solid #000;
-    border-radius:5px;
+    color:#fff;
+    padding:5px 45px 5px 45px;
+    top:25%;
+    left:28%;
+    text-transform: uppercase;
+    background: #d83c3c;
+    border-radius:2px;      
+    border:0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:20px;
 }
 
 .contactbtn:hover {
-    background-color:#fff;
+    background-color:#e54040;
+    color:#fff;
 }
 
 .hcontent {
@@ -931,3 +925,12 @@ li.active {
     padding:5px;
 }
 
+.feed-box-2 {
+    width:350px;
+    text-align:center;
+    height:285px;
+    overflow:scroll;
+    padding:5px;
+    top:36%;
+    position:fixed;
+}
