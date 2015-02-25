@@ -1,4 +1,4 @@
-lab6
+SHUTTERSPACE
 ====
 
-Lab 6: AJAX
+A platform for beginning photographers to showcase their work in their local neighborhood.
