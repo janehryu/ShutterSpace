@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shutterspace</title>
+    <title>Shutterpace</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +20,9 @@
     <!-- Custom CSS -->
     <link href="css/shutterspace.css" rel="stylesheet">
 
-  
-  
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" media="screen" href="ionicons-2.0.1/css/ionicons.min.css?v=2.0.1">
+
     <!-- Responsive CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
   
@@ -48,27 +49,31 @@
                         <input type="text" placeholder="#" required>
                         <button type="submit"><a href="searched.html">Search</a></button>
                     </form>   
+
+                <div class='feed-box'>
+                {{#each feed.news_feed}}
+                        <a href="profile.html"><img class="homeimg" src="{{imageURL}}"/></a>
+                        <p class="hcontent">{{content}}</p>
+                {{/each}}
                 </div>
-                <div id="box1"></div>
-                <div id="box2"></div>
-                <div id="box3"></div>
             </div>
-
-
-    <!-- Bottom Icons Footer-->
-    <div class="bottom">
-        <div class="footer">
-                <div class="footericons"><a href="homepage.html"><img class="icons" src="img/home.png"/></a></div>
-                <div class="footericons"><a href="venmo.html"><img class="iconsv" src="img/venmo1.png"/></a></div>
-                <div class="footericons"><a href="upload.html"><img class="icons" src="img/plus.png"/></a></div>
-                <div class="footericons"><a href="liked.html"><img class="icons" src="img/star.png"/></a></div>
-                <div class="footericons"> <a href="profile.html"><img class="icons" src="img/person.png"/></a></div>
         </div>
-    </div>
 
 
-        </div> 
-    </header>
+
+<!-- Bottom Icons Footer-->
+        <div class="footer">
+            <ul id="icons">
+            <a class="active" href="homepage"><li class="ion-home" data-pack="social" data-tags="house"></li></a>
+            <a href="venmo.html"><li class="ion-social-usd" data-pack="social" data-tags="currency, trade, money, cash"></li></a>
+            <a href="upload.html"><li class="ion-android-camera" data-pack="social" data-tags="android"></li></a>
+            <a href="liked.html"><li class="ion-android-star" data-pack="default" data-tags="favorite, like, rate"></li></a>
+            <a href="profile.html"><li class="ion-person" data-pack="social" data-tags="people, human, users, staff"></li></a>
+            </ul>
+        </div>
+
+    </div> 
+</header>
 
 </body>
 </html>

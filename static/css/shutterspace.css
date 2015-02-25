@@ -874,26 +874,24 @@ li {
 }
 
 li:hover {
-  color: #d83c3c;
+  color:#404040;
 }
 
 li.active {
   color: #cc99cc;
+  background-color:#000;
 }
 
-.profileimg {
-    position:fixed;
-    left:25%;
-    top:-2%;
-    width:50%;
+a.active {
+    color:#d83c3c;
 }
 
 .contactbtn {
     position:fixed;
     color:#fff;
     padding:5px 45px 5px 45px;
-    top:25%;
-    left:28%;
+    top:16%;
+    left:29%;
     text-transform: uppercase;
     background: #d83c3c;
     border-radius:2px;      
@@ -925,12 +923,16 @@ li.active {
     padding:5px;
 }
 
-.feed-box-2 {
-    width:350px;
-    text-align:center;
-    height:285px;
-    overflow:scroll;
-    padding:5px;
-    top:36%;
+.profilename {
     position:fixed;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform:uppercase;
+    font-size:40px;
+    padding:15px;
+    border-radius:5px;
+    width:200px;
+    top:3%;
+    left:23%;
+    background-color:#CCFFCC;
+    color:#fff;
 }
