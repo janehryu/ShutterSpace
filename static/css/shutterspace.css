@@ -892,7 +892,7 @@ a.active {
     color:#fff;
     padding:5px 45px 5px 45px;
     top:15%;
-    left:29%;
+    left:30%;
     text-transform: uppercase;
     background: #d83c3c;
     border-radius:2px;      
@@ -918,9 +918,9 @@ a.active {
 
 .feed-box {
     width:350px;
-    left:5%;
+    left:2%;
     top:18%;
-    height:380px;
+    height:350px;
     overflow:scroll;
     padding:5px;
     position:fixed;
