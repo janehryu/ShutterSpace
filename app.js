@@ -9,7 +9,7 @@ var handlebars = require('express3-handlebars')
 
 // Example route
 // var user = require('./routes/user');
-var homepageController = require("./routes/home_page");
+var homepageController = require("./routes/homepageController");
 
 var app = express();
 
