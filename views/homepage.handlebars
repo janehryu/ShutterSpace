@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shutterpace</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shutterspace.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" media="screen" href="ionicons-2.0.1/css/ionicons.min.css?v=2.0.1">
+
+    <!-- Responsive CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+  
+    <!-- Css3 Transitions Styles  -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Newsfeed -->
+    <header class="homepage">
+        <div class="homepage-body">
+            <div class="container">
+                <div class="row">
+                    <form class="form-wrapper cf">
+                        <input type="text" placeholder="#" required>
+                        <button type="submit"><a href="searched.html">Search</a></button>
+                    </form>   
+
+                <div class='feed-box'>
+                {{#each feed.news_feed}}
+                        <a href="profile.html"><img class="homeimg" src="{{imageURL}}"/></a>
+                        <p class="hcontent">{{content}}</p>
+                {{/each}}
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- Bottom Icons Footer-->
+        <div class="footer">
+            <ul id="icons">
+            <a class="active" href="homepage"><li class="ion-home" data-pack="social" data-tags="house"></li></a>
+            <a href="venmo.html"><li class="ion-social-usd" data-pack="social" data-tags="currency, trade, money, cash"></li></a>
+            <a href="upload.html"><li class="ion-android-camera" data-pack="social" data-tags="android"></li></a>
+            <a href="liked.html"><li class="ion-android-star" data-pack="default" data-tags="favorite, like, rate"></li></a>
+            <a href="profile.html"><li class="ion-person" data-pack="social" data-tags="people, human, users, staff"></li></a>
+            </ul>
+        </div>
+
+    </div> 
+</header>
+
+</body>
+</html>
