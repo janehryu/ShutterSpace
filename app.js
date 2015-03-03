@@ -38,6 +38,7 @@ if ('development' == app.get('env')) {
 // app.get('/users', user.list);
 
 app.get("/homepage", homepageController.index)
+app.get("/", homepageController.splash)
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
