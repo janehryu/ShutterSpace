@@ -712,6 +712,29 @@ a:focus {
     background-color: #FFFFCC;
 }
 
+.readbutton {
+    position:fixed;
+    border-radius:50%;
+    border:1px #FFFFCC solid;
+    padding:15px;
+    top:70%;
+    left:38%;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.readbutton:hover,
+.readbutton:focus {
+    border: 1px solid #FFFFCC;
+    outline: 0;
+    color: #000;
+    background-color: #FFFFCC;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
