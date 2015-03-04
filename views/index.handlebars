@@ -33,6 +33,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    {{> tracking_code_script}}
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -43,13 +44,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"><a href="index.html">Shutterspace</a></h1>
+                        <h1 class="brand-heading"><a href="index">Shutterspace</a></h1>
                         <p class="intro-text">A platform for beginning photographers<br/> 
                         to showcase their work <br/>
                         and for users to view and select local talent.</p>
                         <a href="login.html" class="btn btn-default btn-lg"><span class="network-name">LOGIN</span></a>
                         <a href="signup.html" class="btn btn-default btn-lg"><span class="network-name">SIGNUP</span></a>
-                        <a href="aboutpage.html" class="readbutton">READ ME</a>
+                        <a href="aboutpage.html"><button class="btn btn-default-a likeBtn version_a">README</button></a>
                     </div>
                 </div>
             </div>
@@ -69,6 +70,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/shutterspace.js"></script>
+    <script src="/js/introHCI.js"></script>
 
 </body>
 

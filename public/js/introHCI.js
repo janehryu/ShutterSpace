@@ -9,9 +9,17 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	$('.project a').click(addProjectDetails);
+	// add any functionality and listeners you want here
 
-	$('#colorBtn').click(randomizeColors);
+  $(".version_a").click(function(){
+    //Woopra tracking code for version A's readme button click event
+    woopra.track("a_version_like_click");
+  })
+
+  $(".version_b").click(function(){
+    //Woopra tracking code for version B's question button click event
+    woopra.track("b_version_like_click");
+  })
 }
 
 /*
