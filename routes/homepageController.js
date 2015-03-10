@@ -1,7 +1,7 @@
 var news_feed = require('../news_feed.json');
 
 exports.index = function(req, res){
-	res.render("homepage", {"feed": news_feed} )
+	res.render("liked", {"feed": news_feed} )
 }
 
 exports.splash = function(req, res) {

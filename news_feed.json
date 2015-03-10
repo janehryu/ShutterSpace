@@ -1,20 +1,28 @@
 {
 	"news_feed" : [
 		{
-			"content" : "#wedding",
-			"imageURL" : "img/hp1.jpg"
+			"imageURL" : "img/l1.jpeg"
 		},
 		{
-			"content" : "#family",
-			"imageURL" : "img/hp2.jpg"
+			"imageURL" : "img/l2.jpeg"
 		},
 		{
-			"content" : "#sorority",
-			"imageURL" : "img/hp3.jpg"
+			"imageURL" : "img/l3.jpg"
 		},
 		{
-			"content" : "#headshot",
-			"imageURL" : "img/headshot.jpg"
+			"imageURL" : "img/l4.jpeg"
+		},
+		{
+			"imageURL" : "img/l5.jpeg"
+		},
+		{
+			"imageURL" : "img/l6.jpeg"
+		},
+		{
+			"imageURL" : "img/l7.jpeg"
+		},
+		{
+			"imageURL" : "img/l8.jpg"
 		}
 	]
 }

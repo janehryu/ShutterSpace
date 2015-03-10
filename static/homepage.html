@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -42,37 +39,35 @@
 
   <!-- Newsfeed -->
     <header class="homepage">
-        <div class="homepage-body">
+        <h1 class="shutterspace">Shutterspace</h1>
             <div class="container">
                 <div class="row">
-                    <form class="form-wrapper cf">
-                        <input type="text" placeholder="#" required>
-                        <button type="submit"><a href="searched.html">Search</a></button>
-                    </form>   
-
-                <div class='feed-box'>
-                {{#each feed.news_feed}}
-                        <a href="profile.html"><img class="homeimg" src="{{imageURL}}"/></a>
-                        <p class="hcontent">{{content}}</p>
-                {{/each}}
+                    <div class="homepagep">
+                        <p>Search for anything that can be hashtagged. <br/>
+                        For example: wedding, headshots, family, etc. <br/>
+                        Have fun!</p>
+                    </div>
+                        <form class="form-wrapper cf">
+                            <input type="text" placeholder="#" required>
+                            <button type="submit"><a href="searched.html">Search</a></button>
+                        </form>   
                 </div>
             </div>
-        </div>
 
 
 
 <!-- Bottom Icons Footer-->
         <div class="footer">
             <ul id="icons">
-            <a class="active" href="homepage"><li class="ion-home" data-pack="social" data-tags="house"></li></a>
+            <a class="active" href="homepage.html"><li class="ion-home" data-pack="social" data-tags="house"></li></a>
             <a href="venmo.html"><li class="ion-social-usd" data-pack="social" data-tags="currency, trade, money, cash"></li></a>
             <a href="upload.html"><li class="ion-android-camera" data-pack="social" data-tags="android"></li></a>
-            <a href="liked.html"><li class="ion-android-star" data-pack="default" data-tags="favorite, like, rate"></li></a>
+            <a href="liked"><li class="ion-android-star" data-pack="default" data-tags="favorite, like, rate"></li></a>
             <a href="profile.html"><li class="ion-person" data-pack="social" data-tags="people, human, users, staff"></li></a>
             </ul>
         </div>
 
-    </div> 
+    
 </header>
 
 </body>
