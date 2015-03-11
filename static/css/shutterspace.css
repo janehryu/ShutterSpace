@@ -177,6 +177,7 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 @media(min-width:767px) {
@@ -1009,9 +1010,9 @@ button, input, select, textarea {
 
 .uploadname {
     position:fixed;
-    top:6%;
+    top:5%;
     color:#99CCCC;
-    left:37%;
+    left:36%;
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -1172,7 +1173,7 @@ a.active {
 
 .likestitle {
     position:fixed;
-    top:4%;
+    top:3%;
     left:30%;
     color:#99CCCC;
     text-transform: uppercase;
@@ -1201,4 +1202,8 @@ a.active {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size:10px;
     height:10px;
+}
+
+.likepic:hover {
+    color:#d83c3c;
 }
