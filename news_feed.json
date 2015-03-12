@@ -1,28 +1,28 @@
 {
 	"news_feed" : [
 		{
-			"imageURL" : "img/l1.jpeg"
+			"imageURL" : "img/wedding1.jpg"
 		},
 		{
-			"imageURL" : "img/l2.jpeg"
+			"imageURL" : "img/wedding2.jpg"
 		},
 		{
-			"imageURL" : "img/l3.jpg"
+			"imageURL" : "img/wedding3.jpg"
 		},
 		{
-			"imageURL" : "img/l4.jpeg"
+			"imageURL" : "img/wedding4.jpg"
 		},
 		{
-			"imageURL" : "img/l5.jpeg"
+			"imageURL" : "img/wedding5.jpg"
 		},
 		{
-			"imageURL" : "img/l6.jpeg"
+			"imageURL" : "img/wedding6.jpg"
 		},
 		{
-			"imageURL" : "img/l7.jpeg"
+			"imageURL" : "img/wedding7.jpg"
 		},
 		{
-			"imageURL" : "img/l8.jpg"
+			"imageURL" : "img/wedding8.jpg"
 		}
 	]
 }
